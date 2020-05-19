@@ -16,14 +16,14 @@
 #              3 -- both 1 & 2
 
 ### USER CONFIGURATION ###
-available_machines="giggity123 strato01 strato02 emily" # mach1 mach2 ...
+available_machines="quantium01 strato352 julia" # mach1 mach2 ...
 parallel_copy=1 # 1 -- parallel, 0 -- sequential
 username=${USER} # has to be same for all machines
 targetdir=${HOME} # has to be same for all machines
 
 
 ### INITIALISATION ###
-echo 'Executing parralel_copy.sh' ; echo
+echo 'Executing parallel_copy.sh' ; echo
 selected_machines=
 args="$@"
 
